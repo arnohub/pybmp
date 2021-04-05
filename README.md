@@ -1,6 +1,6 @@
 # pybmp
 
-pybmp 是一个用 python2.7 编写的bmp collector，基于yabmp开源项目基础上改造而来，可收集网络设备BMP消息，并写入到 mysql 数据库。
+pybmp 使用 python2.7 编写的 bmp collector，基于 yabmp 开源项目基础上改造而来，可收集网络设备 BMP 消息，并写入到 mysql 数据库。
 
 报文格式遵循RFC4271和RFC7854 实现initiation_message、peer_down_notification 、peer_up_notification、route_monitoring、statistics_report BMP报文的解析存储。
 
